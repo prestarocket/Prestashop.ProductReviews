@@ -1,0 +1,479 @@
+#product_comments_block_extra {
+	padding:10px 0 0 0;
+	border-top:1px solid #ccc;
+	font-weight: bold;
+	font-size:12px;
+	line-height:18px
+}
+	
+#product_comments_block_extra a {
+    padding-left: 10px;
+	text-decoration: none;
+	background: url("../img/bg_li.png") no-repeat scroll 1px 45% #fff;
+
+}
+
+#product_comments_block_extra a:hover {text-decoration: underline}
+
+#product_comments_block_extra .comments_note {margin-bottom:5px}
+#product_comments_block_extra .comments_note span,
+#product_comments_block_extra .star_content {float:left}
+#product_comments_block_extra .star_content {margin-top:2px}
+
+#product_comments_block_extra div.star {background: url("../img/star.gif") no-repeat scroll 0 0 transparent}
+
+#product_comments_block_extra div.star_on {background: url("../img/star.gif") no-repeat scroll 0 -12px transparent}
+
+#product_comments_block_extra .comments_advices {clear:both;}
+
+/* pop-in add grade/advice ********************************************************************* */
+#fancybox-wrap { width:100% }
+#fancybox-content {
+	width:100%;
+	border-width:0
+}
+
+#new_comment_form {
+	width:100%;
+	color: #333;
+	text-align: left;
+	background-color: rgb(76, 175, 80);
+}
+#new_comment_form .title {
+	padding:10px;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	background: rgb(76, 175, 80);
+}
+#new_comment_form ul.grade_content {list-style-type:none}
+#new_comment_form .grade_content li {width:50%}
+#new_comment_form .product {padding:15px}
+#new_comment_form .product img {
+	float:left;
+   border: 1px solid #ccc;
+}
+#new_comment_form .product .product_desc {
+	float:left;
+	margin-left:15px;
+	width:300px;
+	line-height:18px;
+	color:#666
+}
+#new_comment_form .product .product_desc .product_name {
+	padding-bottom:5px;
+	font-size:13px;
+	color:#000
+}
+
+#new_comment_form .grade_content {margin:0 0 20px 0}
+#new_comment_form .grade_content span,
+#new_comment_form .grade_content span {
+	display:inline-block;
+	padding:0 10px;
+	width:150px;/* 160 */
+	font-weight:bold
+}
+#new_comment_form .grade_content .cancel {margin-right:5px}
+
+.new_comment_form_content {
+	padding:15px;
+	background:#fff
+}
+.new_comment_form_content .intro_form {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px
+}
+
+#new_comment_form label {
+	display: block;
+	margin:12px 0 4px 0;
+	font-weight: 400;
+	font-size: .9375rem;
+	text-align: left;
+	letter-spacing: 0;
+}
+#new_comment_form input {
+	padding: 0 5px;
+	height: 28px;
+	width: 100%!important;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+#new_comment_form input.star {
+	width: auto!important;
+}
+#new_comment_form textarea {
+	padding: 0 5px;
+	height: 80px;
+	width: 100%!important;
+	max-width: 100%!important;
+	border: 1px solid #ccc;
+	background: #fff;
+}
+
+#new_comment_form .submit {
+	margin-top:20px;
+	padding:0;
+	font-size:13px;
+	text-align:right
+}
+#new_comment_form button {
+	cursor: pointer;
+	cursor: pointer;
+	display: inline-block;
+	padding: 4px 7px 3px 7px;
+	border: 1px solid #CC9900;
+	border-radius: 3px 3px 3px 3px;
+	font-weight: bold;
+	color: #000;
+	background: url("../img/bg_bt.gif") repeat-x scroll 0 0 #F4B61B
+}
+
+#new_comment_form #criterions_list {
+	list-style-type: none;
+}
+
+#new_comment_form #criterions_list li {
+	margin-bottom: 10px;
+}
+
+#new_comment_form #criterions_list label {
+	width: 100%;
+	display: block;
+}
+
+#new_comment_form #criterions_list .star_content {
+	float: left;
+	padding-left: 20px;
+	margin: 10px 0 4px 0;
+	position: relative;
+}
+
+#new_comment_form #new_comment_form_footer {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+/* TAB COMMENTS ******************************************************************************** */
+#product_comments_block_tab {margin:0 0 2rem 0}
+
+#product_comments_block_tab div.comment {
+	margin:0 0 2rem 0;
+}
+
+#product_comments_block_tab div.comment div.comment_author {
+	float: left;
+	padding-right:25px;
+	width: 140px;/* 165 */
+	line-height:18px
+}
+#product_comments_block_tab div.comment div.comment_author span {font-weight:bold;}
+#product_comments_block_tab div.comment div.comment_author span,
+#product_comments_block_tab div.comment .star_content {
+	float:left;
+}
+#product_comments_block_tab div.comment .star_content {margin: 0 0 0 5px}
+#product_comments_block_tab div.star,
+#product_comments_block_tab div.star_on {
+	background: url("../img/star.gif") no-repeat 0 0 transparent
+}
+#product_comments_block_tab div.star_on {background-position: 0 -12px}
+#product_comments_block_tab .comment_author_infos {clear:both}
+#product_comments_block_tab .comment_author_infos em {color:#999}
+
+#product_comments_block_tab div.comment div.comment_details {
+	float: left;
+	overflow:hidden;
+	width: 360px
+}
+#product_comments_block_tab div.comment_details .title_block, #product_comments_block_tab div.comment_details h4  {padding-bottom:10px}
+#product_comments_block_tab div.comment_details p {padding-bottom:10px}
+#product_comments_block_tab div.comment_details ul {
+	list-style-type:none;
+	margin:0
+}
+#product_comments_block_tab div.comment_details li {
+	padding:2px 0 2px 12px;
+	background:url("../img/bg_li.png") no-repeat 1px 45% #fff
+}
+
+#product_comments_block_tab a {
+	text-decoration: none;
+	font-weight: bold
+}
+
+#product_comments_block_tab a:hover {text-decoration: underline}
+
+#product_comments_block_tab button.usefulness_btn {
+	cursor: pointer;
+	margin:0 0 0 5px;
+	display: inline-block;
+	padding: 0 2px;
+	border: 1px solid #CC9900;
+	border-radius: 3px 3px 3px 3px;
+	color: #000;
+	font-weight: bold;
+	background: url("../img/bg_bt.gif") repeat-x scroll 0 0 #F4B61B
+}
+#product_comments_block_tab button.usefulness_btn:hover {background-position: left -50px}
+#product_comments_block_tab button.usefulness_btn:active {background-position: left -100px}
+
+#product_comments_block_tab span.report_btn {cursor: pointer}
+#product_comments_block_tab span.report_btn:hover {text-decoration:underline}
+
+.fl { float: left; }
+.fr { float: right; }
+
+/* Style for stars */
+#id_new_comment_form .stars {
+  background: url("../img/stars.png") repeat-x 0 0;
+  width: 150px;
+  position: relative;
+}
+ 
+#id_new_comment_form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+#id_new_comment_form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+#id_new_comment_form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+#id_new_comment_form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+#id_new_comment_form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+#id_new_comment_form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+#id_new_comment_form .stars label {
+  display: block!important;
+  width: 30px!important;
+  height: 30px!important;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: absolute;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+  letter-spacing: 0;
+}
+#id_new_comment_form .stars label.star-1 {
+	left: 0;
+}
+#id_new_comment_form .stars label.star-2 {
+	left: 30px;
+}
+#id_new_comment_form .stars label.star-3 {
+	left: 60px;
+}
+#id_new_comment_form .stars label.star-4 {
+	left: 90px;
+}
+#id_new_comment_form .stars label.star-5 {
+	left: 120px;
+}
+#id_new_comment_form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+#id_new_comment_form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+#id_new_comment_form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+#id_new_comment_form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+#id_new_comment_form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+#id_new_comment_form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+#id_new_comment_form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("../img/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+
+#id_new_comment_form .required {color: red; font-weight: 800!important;}
+#id_new_comment_form .ialert {
+	width: 100%;
+    margin: 0 auto;
+    background-color: #FFF9C4;
+    padding: 16px;
+    border-radius: 2px;
+    color: #212121;
+    position: relative;
+}
+#id_new_comment_form .ialert ul {
+	padding: 0!important;
+	margin: 0!important;
+}
+#id_new_comment_form .ialert ul li {
+	font-size: .85rem;
+}
+#new_comment_form,#product_comments_block_tab {font-family: 'Roboto','Helvetica','Arial',sans-serif;}
+#id_new_comment_form h2 {margin-bottom: 0!important;letter-spacing: 0;}
+#phi_new_comment_form {
+	margin-top: 2rem;
+	box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+	-webkit-box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+}
+
+.ibtn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0;
+    box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+    letter-spacing: 0;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: normal!important;
+}
+.ibtn, .ibtn:hover{
+	text-decoration:none!important;
+}
+
+.ibtn-success {
+    background-color: rgb(76, 175, 80);
+    border-color: rgb(76, 175, 80);
+}
+
+#new_comment_form .iinput {
+    margin: 0;
+    max-width: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    outline: 0;
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    text-align: left;
+    line-height: 1.21428571em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    padding: .67857143em 1em;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    -webkit-transition: box-shadow .1s ease,border-color .1s ease;
+    transition: box-shadow .1s ease,border-color .1s ease;
+    box-shadow: none;
+    letter-spacing: 0;
+}
+
+#new_comment_form input:focus, #new_comment_form textarea:focus, #new_comment_form .iinput.focus {
+    border-color: #85b7d9;
+    background: #fff;
+    color: rgba(0,0,0,.8);
+    box-shadow: none;
+}
+.iright { float: right }
+.iclose-btn { 
+	z-index: 500250;
+	cursor: pointer;
+	position: absolute;
+	right: 5px;
+	top:  2px;
+}
+.iclose-btn:hover {color:#ff4081;}
+#new_comment_tab_btn {color:rgb(76, 175, 80);}
+.ialign_center {text-align: center;}
+.icircle { 
+	max-width: 2.5em;
+	margin: .2em 0 0;
+	float: left;
+	height: auto;
+	display: block;
+}
+.icircle img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.istar_content {
+	padding-left: 3.5em;
+	width: 100%;
+}
+.iauthor {
+	cursor: pointer;
+	font-size: 1em;
+	color: rgba(0,0,0,.87);
+	font-weight: 700;
+}
+.imetadata {
+	display: inline-block;
+	color: rgba(0,0,0,.4);
+	font-size: .875em;
+	margin-left: .5em;
+}
+#product_comments_block_tab .idatae {
+	font-size: .875em;
+}
+.imetadata>* {
+	margin: 0 .5em 0 0;
+	display: inline-block;
+}
+.imetadata>:last-child {margin-right: 0;}
+.itext{width: 100%;height: auto;margin-top:1em;line-height: 24px;}
+.itext .title_block {
+	font-size: 0.95em;
+	color: rgba(0,0,0,.67);
+	font-weight: 600;
+	text-transform: capitalize;
+}
+#product_comments_block_tab .comment {
+	background-color: #eee;
+    border: 1px solid #eee;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 2px 2px 11px 0 rgba(0,0,0,.1);
+}
+.itext-bottom > span {
+	color: rgba(0,0,0,.4);
+	margin: 0 .75em 0 0;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	font-size: .875em;
+}
+.itext-bottom>span:hover{color: rgba(0,0,0,.8);text-decoration: none!important;}
+#id_new_comment_form .ialert.success {
+	background-color: rgb(76, 175, 80);
+	color: #fff;
+}
+.div-people-like {font-size: small;color: rgba(0,0,0,.4);}
+.span-review-main {font-size: small;color: rgba(0,0,0,.4);}
